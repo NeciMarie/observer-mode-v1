@@ -44,4 +44,4 @@ This project helped me practice:
 - Data tracking and visualization
 
 ## Live Demo
-Coming Soon
+https://necimarie.github.io/observer-mode-v1/ 
