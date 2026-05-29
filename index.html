@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observer Mode™ // A Behavioral Interface Experiment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app-container" class="state-calm" data-state="calm">
+       <header class="experiment-header">
+         <h1>Observer Mode™</h1>
+         <p class="subtitle"> A behavioral interface experiment.</p>
+       </header>
+    
+       <main class="experiment-content">
+
+        <section class="intro-card">
+          <h2>Your state changes the interface before you realize it</h2>
+          <p>This mini experience explores how emotional states can shape the way digital spaces feel from clarity and focus to noise and overwhelm.</p>
+        </section>
+
+        <nav class="state-selector" aria-label="Interface state selectors">
+          <button class="state-btn active" data-target="calm">Calm</button>
+          <button class="state-btn" data-target="focused">Focused</button>
+          <button class="state-btn" data-target="overwhelmed">Overwhelmed</button>
+          <button class="state-btn" data-target="avoidant">Avoidant</button>
+        </nav>
+
+        <section class="display-card" aria-live="polite">
+
+          <div class="visual-anchor"></div>
+
+          <h3 id="display-message">The interface softens. The next step feels available.</h3>
+          <p id="display-insight">Calm states reduce perceived friction and make choices feel easier to approach.</p>
+        </section>
+
+       </main>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
